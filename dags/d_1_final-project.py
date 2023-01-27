@@ -5,7 +5,7 @@ from airflow import DAG
 from airflow.models import Variable, Connection
 from airflow.operators.python import PythonOperator
 
-from modules.covidscraper import CovidScraper
+from modules.datascrape import DataScrape
 from modules.transformer import Transformer
 from modules.connector import Connector
 
